@@ -17,13 +17,13 @@ namespace ControllersNP.Controllers
         #region METODOS POST
 
         /// <summary>
-        /// Metodo que crea un nuevo grupo
+        /// Metodo que crea un nuevo equipo
         /// Falta ponerle los parametros
-        /// Dentro del metodo crear un nuevo grupo
+        /// Dentro del metodo crear un nuevo equipo
         /// </summary>
         /// <param name=""></param>
         [HttpPost]
-        public void PostGrupos()
+        public void PostEquipos()
         {
 
         }
@@ -70,13 +70,13 @@ namespace ControllersNP.Controllers
         #endregion
         #region  METODOS PUT
         /// <summary>
-        /// Metodo que realiza la actualizacion de un Grupo
+        /// Metodo que realiza la actualizacion de un Equipo
         /// Descomentar linea de encima del metodo
-        /// Dentro del metodo hay que actualizar el Grupo
+        /// Dentro del metodo hay que actualizar el Equipo
         /// </summary>
-        /// <param name="idGrupo">Es el ID del Partido que el usuario desea actualizar</param>
-        //[HttpPut("{idGrupo}")]
-        public void PutGrupos(int idGrupo)
+        /// <param name="idEquipo">Es el ID del Partido que el usuario desea actualizar</param>
+        //[HttpPut("{idEquipo}")]
+        public void PutEquipos(int idEquipo)
         {
             
         }
@@ -129,13 +129,13 @@ namespace ControllersNP.Controllers
         #endregion
         #region METODOS DELETE
         /// <summary>
-        /// Metodo que borra un Grupo 
+        /// Metodo que borra un Equipo 
         /// Descomentar linea de encima del metodo
         /// Falta meter la funcionalidad del metodo
         /// </summary>
-        /// <param name="idGrupo">El Id del Grupo que el usuario desea borrar</param>
-        //[HttpDelete("{idGrupo}")]
-        public void DeleteGrupos(int idGrupo)
+        /// <param name="idEquipo">El Id del Equipo que el usuario desea borrar</param>
+        //[HttpDelete("{idEquipo}")]
+        public void DeleteEquipos(int idEquipo)
         {
 
 
